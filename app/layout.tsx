@@ -64,7 +64,6 @@ export default function RootLayout({
             </div>
             
             <nav className="hidden md:flex items-center gap-6">
-              <a href="#home" className="text-[#084CA1] hover:text-[#084CA1]/80 font-medium">HOME</a>
               <a href="#chi-siamo" className="text-[#084CA1] hover:text-[#084CA1]/80 font-medium">CHI SIAMO</a>
               <a href="#processi" className="text-[#084CA1] hover:text-[#084CA1]/80 font-medium">PROCESSI</a>
               <a href="#filosofia" className="text-[#084CA1] hover:text-[#084CA1]/80 font-medium">FILOSOFIA</a>

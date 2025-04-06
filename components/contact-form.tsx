@@ -60,7 +60,7 @@ export default function ContactForm() {
     <form className="space-y-6" onSubmit={handleSubmit}>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <label htmlFor="name" className="block text-gray-700 mb-2">
+          <label htmlFor="name" className="block text-gray-700 text-sm lg:text-lg mb-2">
             Nome e Cognome *
           </label>
           <input
@@ -74,7 +74,7 @@ export default function ContactForm() {
           />
         </div>
         <div>
-          <label htmlFor="company" className="block text-gray-700 mb-2">
+          <label htmlFor="company" className="block text-gray-700 text-sm lg:text-lg mb-2">
             Azienda *
           </label>
           <input
@@ -91,7 +91,7 @@ export default function ContactForm() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <label htmlFor="email" className="block text-gray-700 mb-2">
+          <label htmlFor="email" className="block text-gray-700 text-sm lg:text-lg mb-2">
             Email *
           </label>
           <input
@@ -105,7 +105,7 @@ export default function ContactForm() {
           />
         </div>
         <div>
-          <label htmlFor="phone" className="block text-gray-700 mb-2">
+          <label htmlFor="phone" className="block text-gray-700 text-sm lg:text-lg mb-2">
             Telefono
           </label>
           <input
@@ -120,7 +120,7 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="subject" className="block text-gray-700 mb-2">
+        <label htmlFor="subject" className="block text-gray-700 text-sm lg:text-lg mb-2">
           Oggetto *
         </label>
         <input
@@ -135,7 +135,7 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="message" className="block text-gray-700 mb-2">
+        <label htmlFor="message" className="block text-gray-700 text-sm lg:text-lg mb-2">
           Messaggio *
         </label>
         <textarea
