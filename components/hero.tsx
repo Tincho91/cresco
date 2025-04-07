@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Hero = () => {
   return (
-    <section id="home" className="relative h-[500px]" >
+    <section id="home" className="relative h-[500px] scroll-mt-16" >
       <div className="absolute inset-0 bg-black/50 z-10"></div>
       <Image
         src="/placeholder.svg?height=500&width=1200"

@@ -1,4 +1,3 @@
-// components/mobile-menu.tsx
 "use client";
 
 import { useEffect } from "react";

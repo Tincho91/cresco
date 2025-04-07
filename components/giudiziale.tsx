@@ -1,7 +1,7 @@
 
 const Giudiziale = () => {
   return (
-    <section id="fase-giudiziale" className="py-16 px-4 md:px-8 bg-gray-50">
+    <section id="fase-giudiziale" className="py-16 px-4 md:px-8 bg-gray-50 scroll-mt-16">
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-[#084CA1] text-3xl font-bold mb-4">
