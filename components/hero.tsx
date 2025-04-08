@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section id="home" className="relative h-[600px] scroll-mt-16 overflow-hidden bg-black">
+    <section id="home" className="relative h-[500px] md:h-[600px] scroll-mt-16 overflow-hidden bg-black">
       {/* Video de fondo */}
       <video
         autoPlay
@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/50 z-10"></div>
 
       {/* Contenido */}
-      <div className="relative container mx-auto z-20 h-full w-full flex flex-col justify-center">
+      <div className="relative container px-4 md:px-8 xl:px-0 mx-auto z-20 h-full w-full flex flex-col justify-center">
         <div className="max-w-3xl">
           <h1 className="text-white text-3xl md:text-5xl lg:text-7xl font-bold mb-4">
             CRESCO RISK MANAGEMENT
