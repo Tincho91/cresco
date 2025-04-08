@@ -10,19 +10,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <Link href="/" className="flex items-center mb-6">
+            <div className="flex items-center mb-6">
               <Image
-                src="/placeholder.svg?height=50&width=50"
+                src="/logoFooter.png"
                 alt="Cresco Logo"
-                width={50}
-                height={50}
+                width={200}
+                height={60}
                 className="mr-2"
               />
-              <div className="flex flex-col">
-                <span className="text-white text-xl font-bold">CRESCO</span>
-                <span className="text-white text-xs">RISK MANAGEMENT</span>
-              </div>
-            </Link>
+            </div>
             <p className="text-gray-300 mb-4">
               Cresco Risk Management opera nel settore della gestione dei crediti anomali, perseguendo l'obiettivo della
               riduzione dei costi di recupero dei crediti problematici.
