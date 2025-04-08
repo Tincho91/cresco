@@ -5,7 +5,7 @@ const ChiSiamo = () => {
     <section id="chi-siamo" className="py-16 px-4 md:px-8 bg-white scroll-mt-16">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-[#084CA1] text-3xl font-bold mb-4">CHI SIAMO</h2>
+            <h2 className="text-[#084CA1] text-3xl md:text-5xl font-bold mb-4">CHI SIAMO</h2>
             <div className="h-1 w-24 bg-[#084CA1] mx-auto"></div>
           </div>
 

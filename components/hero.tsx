@@ -1,13 +1,17 @@
 const Hero = () => {
   return (
-    <section id="home" className="relative h-[500px] scroll-mt-16 overflow-hidden">
+    <section id="home" className="relative h-[600px] scroll-mt-16 overflow-hidden bg-black">
       {/* Video de fondo */}
       <video
         autoPlay
         muted
         loop
         playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        className="absolute inset-0 w-full h-full max-w-7xl mx-auto object-cover z-0"
+        style={{
+          WebkitMaskImage: 'linear-gradient(to right, transparent, black 20%, black 80%, transparent)',
+          maskImage: 'linear-gradient(to right, transparent, black 20%, black 80%, transparent)',
+        }}
       >
         <source src="/hero-background.mp4" type="video/mp4" />
         Tu navegador no soporta video HTML5.
@@ -17,9 +21,9 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/50 z-10"></div>
 
       {/* Contenido */}
-      <div className="relative z-20 h-full flex flex-col justify-center px-6 md:px-16">
+      <div className="relative container mx-auto z-20 h-full w-full flex flex-col justify-center">
         <div className="max-w-3xl">
-          <h1 className="text-white text-3xl md:text-5xl font-bold mb-4">
+          <h1 className="text-white text-3xl md:text-5xl lg:text-7xl font-bold mb-4">
             CRESCO RISK MANAGEMENT
           </h1>
           <p className="text-white text-xl mb-8">
