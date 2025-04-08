@@ -12,21 +12,17 @@ const Navbar = () => {
   const closeMobileMenu = () => setIsMobileMenuOpen(false);
 
   return (
-    <header className="bg-white py-4 px-4 md:px-8 sticky top-0 z-40 shadow-sm">
+    <header className="bg-white py-3 px-4 md:px-8 sticky top-0 z-40 shadow-sm">
           <div className="container mx-auto flex justify-between items-center">
             <div className="flex items-center">
               <div className="flex items-center">
                 <Image 
-                  src="/placeholder.svg?height=60&width=60" 
+                  src="/logo.png" 
                   alt="Cresco Logo" 
-                  width={60} 
+                  width={200} 
                   height={60}
                   className="mr-2"
                 />
-                <div className="flex flex-col">
-                  <span className="text-[#084CA1] text-2xl font-bold">CRESCO</span>
-                  <span className="text-[#084CA1] text-xs">RISK MANAGEMENT</span>
-                </div>
               </div>
             </div>
             

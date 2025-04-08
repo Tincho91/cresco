@@ -12,7 +12,7 @@ const Filosofia = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/filosofia.jpeg"
                 alt="Filosofia e Mission"
                 width={600}
                 height={500}

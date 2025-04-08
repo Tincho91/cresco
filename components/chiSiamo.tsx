@@ -35,7 +35,7 @@ const ChiSiamo = () => {
             </div>
             <div>
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/chiSiamo.jpeg"
                 alt="Chi Siamo"
                 width={600}
                 height={500}
