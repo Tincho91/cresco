@@ -23,7 +23,7 @@ const Hero = () => {
       {/* Contenido */}
       <div className="relative container px-4 md:px-8 xl:px-0 mx-auto z-20 h-full w-full flex flex-col justify-center">
         <div className="max-w-3xl">
-          <h1 className="text-white text-3xl md:text-5xl lg:text-7xl font-bold mb-4">
+          <h1 className="text-white text-4xl md:text-5xl lg:text-7xl font-bold mb-4">
             CRESCO RISK MANAGEMENT
           </h1>
           <p className="text-white text-xl mb-8">
