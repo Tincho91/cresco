@@ -6,16 +6,26 @@ import {
   FileText,
 } from "lucide-react"
 
+import { FadeIn } from "./ui/fadeIn"
+
 const Servizi = () => {
   return (
     <section id="servizi" className="py-16 px-4 md:px-8 bg-white scroll-mt-16">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-[#084CA1] text-3xl md:text-5xl font-bold mb-4">ATTIVITÀ E SERVIZI OFFERTI</h2>
-            <div className="h-1 w-24 bg-[#084CA1] mx-auto"></div>
-            <p className="text-gray-700 mt-6 max-w-3xl mx-auto">
-              La nostra azienda offre i seguenti servizi al fine e per recuperare il credito:
-            </p>
+            <FadeIn direction="up" delay={0}>
+              <h2 className="text-[#084CA1] text-3xl md:text-5xl font-bold mb-4">
+                ATTIVITÀ E SERVIZI OFFERTI
+              </h2>
+            </FadeIn>
+            <FadeIn direction="up" delay={0.2}>
+              <div className="h-1 w-24 bg-[#084CA1] mx-auto"></div>
+            </FadeIn>
+            <FadeIn direction="up" delay={0.4}>
+              <p className="text-gray-700 mt-6 max-w-3xl mx-auto">
+                La nostra azienda offre i seguenti servizi al fine e per recuperare il credito:
+              </p>
+            </FadeIn>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mb-12">

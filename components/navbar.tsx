@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Image from "next/image"
-import Link from "next/link"
 import { Menu } from "lucide-react"
+import { FadeIn } from "./ui/fadeIn";
 
 import MobileMenu from "@/components/ui/mobile-menu";
 
@@ -16,13 +16,15 @@ const Navbar = () => {
           <div className="container mx-auto flex justify-between items-center">
             <div className="flex items-center">
               <div className="flex items-center">
-                <Image 
-                  src="/logo.png" 
-                  alt="Cresco Logo" 
-                  width={200} 
-                  height={60}
-                  className="mr-2"
-                />
+              <FadeIn direction="left" delay={0}>
+                  <Image 
+                    src="/logo.png" 
+                    alt="Cresco Logo" 
+                    width={200} 
+                    height={60}
+                    className="mr-2"
+                  />
+                </FadeIn>
               </div>
             </div>
             

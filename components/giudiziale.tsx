@@ -1,13 +1,18 @@
+import { FadeIn } from "./ui/fadeIn"
 
 const Giudiziale = () => {
   return (
     <section id="fase-giudiziale" className="py-16 px-4 md:px-8 bg-gray-50 scroll-mt-16">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-[#084CA1] text-3xl font-bold mb-4">
-              IN CASO DI ESITO NEGATIVO DELL'ATTIVITÀ STRAGIUDIZIONALE - FASE GIUDIZIALE
-            </h2>
+            <FadeIn direction="up" delay={0}>
+              <h2 className="text-[#084CA1] text-3xl md:text-5xl font-bold mb-4">
+                IN CASO DI ESITO NEGATIVO DELL'ATTIVITÀ STRAGIUDIZIONALE - FASE GIUDIZIALE
+              </h2>
+            </FadeIn>
+            <FadeIn direction="up" delay={0.2}>
             <div className="h-1 w-24 bg-[#084CA1] mx-auto"></div>
+            </FadeIn>
           </div>
 
           <div className="max-w-4xl mx-auto">
