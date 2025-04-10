@@ -3,7 +3,10 @@ import { FadeIn } from "./ui/fadeIn";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative h-[500px] md:h-[600px] scroll-mt-16 overflow-hidden bg-black">
+    <section
+      id="home"
+      className="relative z-10 h-[500px] md:h-[600px] scroll-mt-16 overflow-hidden bg-black"
+    >
       {/* Video de fondo */}
       <video
         autoPlay

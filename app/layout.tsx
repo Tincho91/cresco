@@ -1,9 +1,8 @@
 "use client";
 
-import { useState } from "react";
 import { Inter } from 'next/font/google';
 import "./globals.css";
-import { Phone, Mail, Menu } from 'lucide-react';
+import { Phone, Mail } from 'lucide-react';
 import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -38,9 +37,7 @@ export default function RootLayout({
 
         {/* Navigation */}
         <Navbar />
-
-        {children}
-        
+          {children}
         <Footer />
       </body>
     </html>

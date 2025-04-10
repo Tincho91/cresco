@@ -2,7 +2,7 @@ import { FadeIn } from "./ui/fadeIn"
 
 const Strategia = () => {
   return (
-    <section id="strategie" className="py-16 px-4 md:px-8 bg-[#084CA1] text-white scroll-mt-16">
+    <section id="strategie" className="relative z-10 py-16 px-4 md:px-8 bg-[#084CA1] text-white scroll-mt-16">
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <FadeIn direction="up" delay={0}>
