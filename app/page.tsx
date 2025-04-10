@@ -1,4 +1,4 @@
-import BeamsBackground from "@/components/ui/beamsBackground"
+"use client";
 import Hero from "@/components/hero"
 import ChiSiamo from "@/components/chiSiamo"
 import ProcessiOperativi from "@/components/processiOperativi"
@@ -10,20 +10,17 @@ import Contact from "@/components/contact"
 
 export default function Home() {
   return (
-    <>
-  <BeamsBackground />
+    <main>
+      <Hero />
+      <ChiSiamo />
+      <ProcessiOperativi />
+      <Filosofia />
+      <Strategia />
+      <Servizi />
+      <Giudiziale />
+      <Contact />
+    </main>
 
-  <main className="relative z-10 flex flex-col">
-    <Hero />
-    <ChiSiamo />
-    <ProcessiOperativi />
-    <Filosofia />
-    <Strategia />
-    <Servizi />
-    <Giudiziale />
-    <Contact />
-  </main>
-</>
   )
 }
 

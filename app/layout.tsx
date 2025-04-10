@@ -3,16 +3,10 @@
 import { Inter } from 'next/font/google';
 import "./globals.css";
 import { Phone, Mail } from 'lucide-react';
+import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
-
-// Movemos la metadata a un archivo separado para poder usar "use client"
-// Crea un archivo metadata.ts en la carpeta app con este contenido:
-// export const metadata = {
-//   title: "Cresco Risk Management - Gestione dei crediti anomali",
-//   description: "Cresco Risk Management opera nel settore della gestione dei crediti anomali, perseguendo l'obiettivo della riduzione dei costi di recupero dei crediti problematici.",
-// };
 
 export default function RootLayout({
   children,
@@ -43,8 +37,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-
-
-import './globals.css'
-import Navbar from "@/components/navbar";
