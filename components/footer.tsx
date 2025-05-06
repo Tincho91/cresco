@@ -114,6 +114,10 @@ export default function Footer() {
                 <span className="text-gray-300">+39 340 4931607</span>
               </li>
               <li className="flex items-center">
+                <Phone className="text-white w-5 h-5 mr-3" />
+                <span className="text-gray-300">+39 328 7833398</span>
+              </li>
+              <li className="flex items-center">
                 <Mail className="text-white w-5 h-5 mr-3" />
                 <span className="text-gray-300">crescosrls@gmail.com</span>
               </li>

@@ -7,10 +7,12 @@ import Strategia from "@/components/strategia"
 import Servizi from "@/components/servizi"
 import Giudiziale from "@/components/giudiziale"
 import Contact from "@/components/contact"
+import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
     <main>
+      <Navbar />
       <Hero />
       <ChiSiamo />
       <ProcessiOperativi />
